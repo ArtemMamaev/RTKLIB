@@ -3,9 +3,6 @@
 *.obs
 *.ini
 *.local
-Release
-Release_Build
-Debug
-Debug_Build
-__history
-__astcache
+*.vs
+*Debug
+*Release

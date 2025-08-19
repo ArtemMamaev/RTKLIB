@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\rcv">
+      <UniqueIdentifier>{c1633bff-357a-4101-be81-1313e51602b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\rtklib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\convkml.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\convrnx.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\datum.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\download.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ephemeris.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geoid.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ionex.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lambda.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\options.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pntpos.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\postpos.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ppp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ppp_ar.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\preceph.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qzslex.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rcvraw.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rinex.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtcm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtcm2.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtcm3.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtcm3e.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtkcmn.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtkpos.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtksvr.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sbas.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\solution.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stream.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\streamsvr.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tle.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rcv\binex.c">
+      <Filter>src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rcv\crescent.c">
+      <Filter>src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rcv\gw10.c">
+      <Filter>src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rcv\javad.c">
+      <Filter>src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rcv\novatel.c">
+      <Filter>src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rcv\nvs.c">
+      <Filter>src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rcv\rcvlex.c">
+      <Filter>src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rcv\rt17.c">
+      <Filter>src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rcv\septentrio.c">
+      <Filter>src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rcv\skytraq.c">
+      <Filter>src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rcv\ss2.c">
+      <Filter>src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rcv\ublox.c">
+      <Filter>src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\convgpx.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gis.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tides.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
